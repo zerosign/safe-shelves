@@ -1,8 +1,0 @@
-language: c
-
-before_script:
- - ./bootstrap.py
- - ./waf configure
-
-script:
- - ./waf build
