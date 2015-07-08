@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
+bld.program(
+    packages = "gtk+-3.0",
+    target = "safe-shelves",
+    uselib = "GTK GLIB",
+    source = "Main.vala",
+    vala_defines = ['DEBUG']
+)
